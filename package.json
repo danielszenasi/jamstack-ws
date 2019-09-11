@@ -1,0 +1,34 @@
+{
+  "name": "jamstack-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gatsby-config.js",
+  "dependencies": {
+    "gatsby": "^2.15.14",
+    "gatsby-plugin-netlify": "^2.1.12",
+    "gatsby-plugin-sharp": "^2.2.21",
+    "gatsby-remark-copy-linked-files": "^2.1.19",
+    "gatsby-remark-images": "^3.1.21",
+    "gatsby-remark-relative-images": "^0.2.3",
+    "gatsby-source-filesystem": "^2.1.22",
+    "gatsby-transformer-remark": "^2.6.22",
+    "gatsby-transformer-sharp": "^2.2.14",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && gatsby build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielszenasi/jamstack-ws.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielszenasi/jamstack-ws/issues"
+  },
+  "homepage": "https://github.com/danielszenasi/jamstack-ws#readme"
+}
